@@ -29,12 +29,28 @@ p{color: dimgray;
  #center{
      text-align: center;
  }
- div.box{
-     width: 100%;
-     display: flex;
-     float: left;
-     flex-wrap: wrap; 
-      justify-content: space-around;
-      
+ .letest_work h2{
+    font-size: 40px;
+    color: #202428;
+    font-weight: 500;
+    margin-bottom: 60px;
  }
+
+ .letest_work{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+}
+.letest_work_img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.letest_work_box{
+    max-width: 100%;
+    width: 100%;
+}
+.letest_work_box img{
+    max-width: 100%;
+}
 
